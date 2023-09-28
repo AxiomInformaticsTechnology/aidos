@@ -1,0 +1,26 @@
+---
+name: Skyline
+structurePath: src/main/resources/structures/cars.json
+debug: false
+timer: false
+spouts: 1
+workers: 16
+parallelism:
+  inputs: 4
+  map: 16
+  reduce: 8
+  global: 1
+  messaging: 1
+  persistence: 4
+updateQueue:
+  name: updateQueue
+  username: karaf
+  password: karaf
+outputQueue:
+  name: outputQueue
+  username: karaf
+  password: karaf
+randomSpoutConfig:
+  type: CORRELATED
+  tupleDurationMin: 60
+  tupleDurationMax: 120  

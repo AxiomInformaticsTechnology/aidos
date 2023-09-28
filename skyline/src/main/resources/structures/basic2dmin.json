@@ -1,0 +1,14 @@
+{
+	"name": "Basic 2d min-vector",
+	"scale": 1,
+	"parts": [
+		{
+			"label": "X",
+			"bias": "MIN"
+		},
+		{
+			"label": "Y",
+			"bias": "MIN"
+		}
+	]
+}

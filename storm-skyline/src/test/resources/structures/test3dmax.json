@@ -1,0 +1,18 @@
+{
+	"name": "Test 3d max-vector",
+	"scale": 1,
+	"parts": [
+		{
+			"label": "X",
+			"bias": "MAX"
+		},
+		{
+			"label": "Y",
+			"bias": "MAX"
+		},
+		{
+			"label": "Z",
+			"bias": "MAX"
+		}
+	]
+}

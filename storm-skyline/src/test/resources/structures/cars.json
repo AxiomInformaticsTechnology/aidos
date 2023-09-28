@@ -1,0 +1,37 @@
+{
+	"name": "Cars",
+	"scale": 1,
+	"parts": [
+		{
+			"label": "Price",
+			"bias": "MIN",
+			"scale": 75000,
+			"base": 5000
+		},
+		{
+			"label": "HP",
+			"bias": "MAX",
+			"scale": 425,
+			"base": 75
+		},
+		{
+			"label": "MPG",
+			"bias": "MAX",
+			"scale": 85,
+			"base": 15
+		},
+		{
+			"label": "Color",
+			"bias": "VALUE",
+			"options": [
+				"RED",
+				"GREEN",
+				"BLUE",
+				"YELLOW",
+				"ORANGE",
+				"WHITE",
+				"BLACK"
+			]
+		}
+	]
+}

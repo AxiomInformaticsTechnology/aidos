@@ -1,0 +1,14 @@
+.classpath
+.project
+
+.settings/
+
+target/
+
+bin/
+
+logs/
+
+*.log*
+
+*.db

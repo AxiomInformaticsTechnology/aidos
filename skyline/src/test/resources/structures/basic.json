@@ -1,0 +1,22 @@
+{
+	"name": "Test",
+	"scale": 1,
+	"parts": [
+		{
+			"label": "A",
+			"bias": "MIN"
+		},
+		{
+			"label": "B",
+			"bias": "MIN"
+		},
+		{
+			"label": "C",
+			"bias": "MIN"
+		},
+		{
+			"label": "D",
+			"bias": "MIN"
+		}
+	]
+}
